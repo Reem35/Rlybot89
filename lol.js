@@ -42,14 +42,14 @@ client.on('message', msg => {
 });
 
 client.on('message', msg => {
-  if (msg.content === 'كيلر') {
-    msg.reply('**عيون كيلر**');
+  if (msg.content === 'علي') {
+    msg.reply('**عيون علي**');
   }
 });
 
 client.on('message', msg => {
   if (msg.content === 'الرابط') {
-    msg.reply('https://discord.gg/N2Sx4sC');
+    msg.reply('https://discord.gg/AxN3Wkm');
   }
 });
 
@@ -59,7 +59,7 @@ client.on('ready', () => {
 });
          client.on('message', message => {
             if (message.content === '!') {
-              message.channel.send('**Welcome To Clan Royal Diamond :hotsprings: :crown: **');
+              message.channel.send('**Welcome To Server  :hotsprings: :crown: **');
               message.channel.sendFile("./photoshop.PNG");
                
 
@@ -70,12 +70,12 @@ client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
          client.on('message', message => {
-            if (message.content === 'الشعار') {
-              message.channel.send('شعارك بل دسكورد   **! RD**');
+            if (message.content === مساعدة') {
+              message.channel.send('قوانين السيرفر بروم افنوء يحلووء *');
 			  
 			  
 						
-			  message.channel.send('شعارك بل اللعبة   **➼ર𝕯♛**');
+			  message.channel.send('*واخر الاخبار بروم *');
               message.channel.sendFile("./photoshop.PNG");
                
 
@@ -96,7 +96,7 @@ client.on('ready', () => {
 
 
 client.on('message', message => {
-     if (message.content === "-help") {
+     if (message.content === ".help") {
      let embed = new Discord.RichEmbed()
 .setThumbnail(message.author.avatarURL)
 .addField('     **بينق** ' ,' **سرعة إتصال البوت** ')
@@ -109,7 +109,7 @@ client.on('message', message => {
 .addField('     **التاريخ** ' ,' **لاظهار التاريخ** ')
 .addField('     ** ** ' ,'  أوآمر الإدآرة  ')
 .addField('     **كيك ** ' ,' ** للطرد  ** ')
-.addField('     **%bc** ' ,' ** للبرودكاست ** ')
+.addField('     **.bc** ' ,' ** للبرودكاست ** ')
 .addField('     **مسح** ' , '**لـ مسح الشات** ')
 .addField('     **الرتب** ' , '**لـ اظهار الرتب الخاصة في السيرفر** ')
   message.channel.sendEmbed(embed);
@@ -440,7 +440,7 @@ client.on('message', message => {
 
 
 
-   var prefix = "-";
+   var prefix = ".";
 var cats = [
 
 "https://static.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg",
@@ -480,7 +480,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers `);
     console.log(`---------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setGame(`RD For Ever -help`,"http://twitch.tv/y04zgamer")
+  client.user.setGame(`Neon Network .help`,"http://twitch.tv/y04zgamer")
    client.user.setStatus("dnd")
 });
 
@@ -790,7 +790,7 @@ client.on('message', message => {
 
 
 
-var prefix = "-";
+var prefix = ".";
 client.on('message', message => {
     if(message.content == prefix + 'سيرفر') {
         var servername = message.guild.name
@@ -831,7 +831,7 @@ client.on('message', message => {
 
 
 
-  var prefix = "-";
+  var prefix = ".";
     client.on('message', message => {
     if(message.content.startsWith(prefix + 'صوره')) {
          var men = message.mentions.users.first();
@@ -865,7 +865,7 @@ message.channel.sendEmbed(avatar)
 
 
 client.on('message',message =>{
-    var prefix = "$";
+    var prefix = ".";
     if(message.content.startsWith(prefix + 'top')) {
   message.guild.fetchInvites().then(i =>{
   var invites = [];
@@ -1138,7 +1138,7 @@ client.on('message', message => {
 
 
  client.on('message', message => {
-    var prefix = "";
+    var prefix = ".";
   if(message.content === prefix + "اقفال الشات") {
                if(!message.channel.guild) return message.reply('** This command only for servers**');
   
